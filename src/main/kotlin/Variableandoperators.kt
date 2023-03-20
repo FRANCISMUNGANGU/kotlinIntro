@@ -34,7 +34,7 @@ fun main(){
     val x: Int = 5
     val y: Long = x.toLong()
     println(y)
-    // Arithmetic operationss
+    // Arithmetic operations
     val price = "5000"
     val discount = 50
     println(price.toInt()- discount.toInt())
@@ -46,5 +46,38 @@ fun main(){
 //    % modulus reminder
 //    ++ increament, add 1 to value
 //    -- decreament, sutracts 1 from value
+
+
+
+
+//    ASSIGNMENT OPERATORS
+    var xy = 5
+    println(xy)
+    xy += 5
+    println(xy)
+//    COMPARISON OPERATORS
+//    ==
+//    >
+//    <
+//    >=
+//    <=
+//get table from python
+    var age = 10
+    var entryage = "10"
+    println(age == entryage.toInt())
+
+//    LOGICAL OPERATORS
+//    Operator           name           description                                   example
+//    &&                 and          returns true if both statements are true        x < 5 && x < 10
+//    ||                 or           returns true if one statement is true           x < 5 || X < 4
+//    !                  not          returns the result, returns false if result is true
+
+
+    println(age == 10 && entryage.toInt() == 10)
+    println(age == 9 || entryage.toInt() == 10)
+    var result = age != 10 || entryage.toInt() != 10
+    println(!result)
+
 }
+
 
