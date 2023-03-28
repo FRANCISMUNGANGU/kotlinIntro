@@ -10,7 +10,7 @@ fun main () {
     println(cars[1])
     println(cars.size)
 
-    if ("Volvo" in cars) {
+    if ("Toyota" in cars) {
         println("It exists")
     }else {
         println("Jaba")
